@@ -15,19 +15,19 @@ const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const carouselImages = [
     {
-      url: "https://envs.sh/X_m.jpg",
+      url: "/images/1.jpg",
       alt: "Professional printing services"
     },
     {
-      url: "https://envs.sh/X_a.jpg",
+      url: "/images/2.jpg",
       alt: "Modern printing equipment"
     },
     {
-      url: "https://envs.sh/X_g.jpg",
+      url: "/images/3.jpg",
       alt: "Document printing"
     },
     {
-      url: "https://envs.sh/X_f.jpg",
+      url: "/images/4.jpg",
       alt: "Print shop services"
     }
   ];
@@ -205,6 +205,7 @@ const Home = () => {
 
           <div className="mt-8 sm:mt-12 text-center">
             <Link to="/order">
+              
               <Button size="lg" className="bg-xerox-600 hover:bg-xerox-700 text-white w-full sm:w-auto">
                 Place Your Order Now
               </Button>
